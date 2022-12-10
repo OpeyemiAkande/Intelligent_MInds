@@ -4,13 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>My Very first Web page</title>
   </head>
   <body>
-    <h1>Intelligent Minds</h1>
-    <p>
-      A creative and innovative educational brand that leverages technology to
-      transform and redefine learning.
-    </p>
+    <header class="header">
+      <div class="video-bg">
+        <video width="1280" height="960" autoplay loop muted>
+          <source src="img/3249046155.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <nav class="nav">
+        <img
+          src="img/utb_wtmk3.png"
+          class="nav__logo"
+          id="logo"
+          alt="Intelligent Minds Logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">How it works</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__cta--btn nav__link">Get Started</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="text__box">
+          <h1 class="hero__title">
+            Learning,<br />
+            creatively simply.
+          </h1>
+          <p class="hero__text">
+            A redefined way to learn designed with you in mind. Carefully
+            thought and engineered curriculum to teach you the important stuff!
+            We to attend to your pain points like you were a 5yrs old. We have
+            taught 25+ students so far!
+          </p>
+          <a href="#" class="nav__cta--btn nav__link">Get Started &rarr;</a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
